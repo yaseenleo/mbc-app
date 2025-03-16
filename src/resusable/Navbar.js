@@ -21,7 +21,7 @@ export default function Navbar() {
                 <div className="flex items-center space-x-4">
                     <Link href="/" className="flex items-center">
                         <Image
-                            src="/next.svg" // Replace with your logo path
+                            src="https://cdn11.bigcommerce.com/s-icuszv1gqq/images/stencil/original/logo1_1734167893__16742.original.png" // Replace with your logo path
                             alt="Logo"
                             width={120}
                             height={40}
@@ -40,37 +40,32 @@ export default function Navbar() {
 
                 {/* Nav Items and Toggle Button (Right Side) */}
                 <div className="flex items-center space-x-4">
-                    <div className="hidden md:flex space-x-4">
+                    {/* <div className="hidden md:flex space-x-4">
                         <a href="#" className="hover:text-orange-500">
                             Nav Item 1
                         </a>
                         <a href="#" className="hover:text-orange-500">
                             Nav Item 2
                         </a>
-                    </div>
-                    <Button
+                    </div> */}
+                    {/* <Button
                         variant="ghost"
                         className="md:hidden text-white"
                         onClick={toggleNav}
                     >
                         {isNavOpen ? <X size={24} /> : <Menu size={24} />}
-                    </Button>
+                    </Button> */}
                 </div>
             </div>
 
             {/* Mobile Navbar */}
-            {isNavOpen && (
+            {/* {isNavOpen && (
                 <div className="md:hidden mt-4">
                     <div className="flex flex-col space-y-2">
-                        <a href="#" className="hover:text-orange-500">
-                            Nav Item 1
-                        </a>
-                        <a href="#" className="hover:text-orange-500">
-                            Nav Item 2
-                        </a>
+                        
                     </div>
                 </div>
-            )}
+            )} */}
         </header>
     );
 }

@@ -80,8 +80,8 @@
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
 
-  --primary: #1E3A8A;
-  --secondary: #F97316;
+  --primary: #1e3a8a;
+  --secondary: #f97316;
 }
 
 .dark {
@@ -130,4 +130,5 @@
 
 body {
   color: black;
+  font-family: "Geist", "Geist Mono", sans-serif;
 }
